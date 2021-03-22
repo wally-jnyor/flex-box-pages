@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Rajdhani:wght@300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+:root {
+    --font-principal: "Rajdhani", serif;
+    --font-footer: "Cormorant Unicase", serif;
+}
+/*==== imports and font ====*/
+
+/*====================================================================================================================*/
+
+/*====== FOR ALL CHILD EXCEPT - CHILD NOWRAP AND - AND N6_SECTION AND N7_SECTION */
+#child-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    box-shadow: 0px 14px 23px -10px #000;
+}
+
+#child-style p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*====================================================================================================================*/
+/* STYLE FOR ALL CHILD ROW EXCEPT FLEX-WRAP AND ALIGN ITEMS */
+#container-box-row {
+    background-color: #cecdcd;
+    border-radius:10px;
+    width: 260px;
+    height: 70px;
+    box-shadow: 0px 17px 20px -13px #000;
+    margin-bottom: 30px;
+}
+/* STYLE FOR ALL CHILD COLUMN */
+#container-box-column {
+    background-color: #cecdcd;
+    width: 70px;
+    height: 225px;
+    border-radius: 10px;
+    box-shadow: 0px 17px 20px -13px #000;
+}
+
+/*====================================================================================================================*/
+/* STYLE FOR CHILD NO-WRAP IN SECTION NUMBER 2 */
+#child-style_no-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    color: black;
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    box-shadow: 0px 18px 15px -11px #000;
+}
+
+/* STYLE FOR CHILD ALIGN ITEMS IN SECTION NUMBER 5*/
+#align-items-style {
+    background-color: #cecdcd;
+    box-shadow: 0px 17px 20px -13px #000;
+    border-radius: 10px;
+    height: 145px;
+    width: 205px;
+}
+
+/*====================================================================================================================*/
+/* STYLE FOR ALL FOOTER END OF PAGE SECTION 2 AND SECTION 5 */
+#footer-section-style {
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    border-radius: 120px 1px;
+    box-shadow: 0px 17px 27px -13px #000;
+}
+
+#btn-more-info-style {
+    border-radius: 25px 0px;
+    box-shadow: 0px 15px 20px -11px #000;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a7bd5, #00d2ff);
+    background: linear-gradient(to left, #3a7bd5, #00d2ff);
+}
+
+#btn-more-info-style:hover {
+    border: solid 1.8px #fff;
+    transition: .5s;
+    transform:scale(1.5);
+}
+
+/*====================================================================================================================*/
+/* STYLE FOR FLEX-SHRINK IN SECTION 7 */
+#flex-shrink-container-style {
+    background-color: #cecdcd;
+    border-radius:10px;
+    width: 130px;
+    height: 70px;
+    box-shadow: 0px 17px 20px -13px #000;
+    margin-bottom: 30px;
+}
+#child-shrink-style {
+    margin: 5px;
+    border-radius: 10px;
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    box-shadow: 0px 14px 23px -10px #000;
+}
+
+#flex-shrink-container-style-block-2 {
+    background-color: #cecdcd;
+    border-radius:10px;
+    width: 153px;
+    height: 70px;
+    box-shadow: 0px 17px 20px -13px #000;
+    margin-bottom: 30px;
+}
+#child-shrink-style-block-2 {
+    margin: 5px;
+    border-radius: 10px;
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    box-shadow: 0px 14px 23px -10px #000;
+}
+
+/*====================================================================================================================*/
+/* STYLE FOR FOOTER */
+#footer-main-page {
+    font-family: var(--font-footer);
+}
+
+#footer-container-principal {
+    padding: 7px;
+    width: 240px;
+    height: 400px;
+}
+
+/* STYLE FOR CARD CARD BOX 1 */
+#card-footer-main-style {
+    /*border: solid 1px white;*/
+    border-radius: 15px;
+    background: #17b0ef; 
+    background: -webkit-linear-gradient(to right, #17b0ef, #009FFF);
+    background: linear-gradient(to right, #aa0631, #17b0ef);
+}
+#card-footer-style {
+    background-color: #000;
+    border-radius: 15px;
+    padding: 15px;
+}
+#card-footer-style:hover {
+    transform: rotate(-7deg) scale(1.1);
+    transition: .2s;
+}
+#card-footer-style h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+}
+#card-footer-style p {
+    font-size: .9rem;
+    color: #fff;
+}
+
+/*=========== BOX 2 ==========*/
+
+#my-photo-footer {
+    border-radius: 50%;
+    width: 66%;
+}
+#footer-container-principal-2 {
+    padding: 15px;
+    text-align: center;
+    height: 400px;
+}
+
+#footer-container-principal-2 h4 {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+#footer-container-principal-2 p {
+    font-size: 1.10rem;
+    color: #fff;
+}
+
+#footer-container-principal-2 a {
+    font-size: 1.10rem;
+    color: #17b0ef;
+}
+
+#footer-container-principal-2 a:hover {
+    font-size: 1.10rem;
+    color: #ff146d;
+    transition: .7s;
+}
+
+#footer-container-principal-2 i {
+    font-size: 1.7rem;
+    color: #17b0ef;
+}
+
+#icons-contact-style i {
+    color: #fff;
+    font-size: 2.5rem;
+}
+#icons-contact-style i:hover {
+    color: #17b0ef;
+    transition: .7s;
+}
+
+
+
+
